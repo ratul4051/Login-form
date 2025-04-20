@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+display: flex;
+justify-content:center ;
+align-items: center;
+background-image: url(eso0907a.jpg);
+min-height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    padding: 10px 70px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    backdrop-filter: blur(5px);
+
+}
+
+
+.input{
+border-radius: 5px;
+ margin-bottom: 20px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.5px ); 
+}
+
+::placeholder{
+    color: aliceblue;
+    font-family: "Poppins",sans-serif;
+    
+}
+.input-field{
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    position:relative;
+    z-index: 1000;
+    border: none;
+    border-color: transparent;
+    width: 100%;
+   
+}
+input[type=submit]{
+   cursor: pointer;  
+   font-family: "Poppins",sans-serif;   
+}
+
+.fa-envelope{
+    position: relative;
+    left: 15px;
+    top: 0px;
+    padding-right: 3px;
+    z-index: 1000;
+    color: white;
+}
+.fa-lock{
+    position: relative;
+    left: 15px;
+    top: 0px;
+    padding-right: 3px;
+    z-index: 1000;
+    color: white;
+}
+.heading{
+    font-family: "Poppins",sans-serif;
+    color: white;
+    margin-bottom: 20px;
+   
+    
+}
+input[type=text]{
+    box-sizing: border-box;
+    border: 0px;
+}
+span{
+    color:rgb(255, 255, 255)
+    ;
+    font-family: "Poppins",sans-serif;
+    
+}
+.social-logo{
+    display: flex;
+    padding-top: 2rem;
+    justify-content:space-between ;
+}
+.social-logo a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Poppins",sans-serif;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px ); 
+    color: rgb(58, 58, 58);
+    border-radius: 5px;
+}
